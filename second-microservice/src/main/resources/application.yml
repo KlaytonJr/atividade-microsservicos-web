@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: second-service
+server:
+    port: 
+        8082
+eureka:
+    instance:
+        hostname: localhost
+        port: 9000
+    client:
+        serviceUrl: 
+            defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka
