@@ -1,6 +1,29 @@
 spring:
     application:
         name: second-service
+    rabbitmq:
+        address: amqp://guest@127.0.0.1:15672/
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+        queue: greetings-sent
+        exchange: Greetings
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: ****************
+        password: ****************
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
+
+spring:
+    application:
+        name: second-service
 server:
     port: 
         8082
