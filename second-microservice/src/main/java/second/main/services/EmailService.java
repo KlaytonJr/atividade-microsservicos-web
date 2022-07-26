@@ -25,8 +25,4 @@ public class EmailService {
         message.setText(emailDTO.getText());
         mailSender.send(message);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> consumer
