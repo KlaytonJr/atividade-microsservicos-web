@@ -12,21 +12,28 @@ spring:
     mail:
         host: smtp.gmail.com
         port: 587
+<<<<<<< HEAD
         username: ****************
         password: ****************
+=======
+        username: softfarmapp@gmail.com
+        password: softfarm1651
+>>>>>>> consumer
         properties:
             mail:
                 smtp:
                     auth: true
                     starttls:
                         enable: true
+<<<<<<< HEAD
 
 spring:
     application:
         name: second-service
+=======
+>>>>>>> consumer
 server:
-    port: 
-        8082
+    port: 8082
 eureka:
     instance:
         hostname: localhost

@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
-import br.edu.uepb.example.secondmicroservice.dto.EmailDTO;
-import br.edu.uepb.example.secondmicroservice.services.EmailService;
+import second.main.dto.EmailDTO;
+import second.main.services.EmailService;
 import lombok.RequiredArgsConstructor;
 
 @Component
