@@ -6,7 +6,7 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
-// import br.edu.uepb.example.secondmicroservice.dto.EmailDTO;
+import second.main.dto.EmailDTO;
 
 @Service
 public class EmailService {
